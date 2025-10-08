@@ -1,9 +1,8 @@
-n = float(input())
-if n >= 8:
-    print("Giỏi")
-elif n >= 6.5:      
-    print("Khá")
-elif n >= 5:
-    print("Trung bình") 
-elif n < 5:
-    print("Yếu")
+a = float(input())
+b = float(input())
+if a == 0 and b == 0:
+    print("Vô số nghiệm")
+elif a == 0 and b != 0:
+    print("Vô nghiệm")
+else:
+    print(format(-b/a,".2f"))

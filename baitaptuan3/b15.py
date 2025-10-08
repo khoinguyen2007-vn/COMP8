@@ -1,7 +1,9 @@
 n = float(input())
-if (n > int(format(n, '.0f'))):
-    print(int(format(n, '.0f')) + 1,int(format(n, '.0f')), int(format(n, '.0f')) )
-if (n < int(format(n, '.0f'))):
-    print(int(format(n, '.0f')),int(format(n, '.0f')) - 1,int(format(n, '.0f')) - 1 )
-if (n == int(format(n, '.0f'))):
-    print(int(format(n, '.0f')),int(format(n, '.0f')) ,int(format(n, '.0f')) )
+if n >= 8:
+    print("Giỏi")
+elif n >= 6.5:      
+    print("Khá")
+elif n >= 5:
+    print("Trung bình") 
+elif n < 5:
+    print("Yếu")
